@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle debe mostrar el componente con el nombre del product 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="product image"
+    className="productImg undefined"
+    src="https://assets.iproup.com/cdn-cgi/image/w=880,f=webp/https://assets.iproup.com/assets/jpg/2021/06/19989.jpg"
+  />
+</div>
+`;
+
+exports[`ProductTitle mostrar componente con la imagen 1`] = `
+<img
+  alt="product image"
+  className="productImg undefined"
+  src="https://assets.iproup.com/cdn-cgi/image/w=880,f=webp/https://assets.iproup.com/assets/jpg/2021/06/19989.jpg"
+/>
+`;
