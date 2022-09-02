@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0-rc",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -38,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "mp-product-card",
+  "name": "mp-product-card-react-typescript",
   "author": "Matias Parodi",
   "module": "dist/mp-product-card.esm.js",
   "size-limit": [
@@ -58,6 +58,7 @@
     "@size-limit/preset-small-lib": "^8.0.1",
     "@types/react": "^18.0.18",
     "@types/react-dom": "^18.0.6",
+    "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.0.1",
     "husky": "^8.0.1",
     "identity-obj-proxy": "^3.0.0",
@@ -70,8 +71,7 @@
     "size-limit": "^8.0.1",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
-    "typescript": "^4.8.2",
-    "@types/react-test-renderer": "^18.0.0"
+    "typescript": "^4.8.2"
   },
   "keywords": [
     "product",
@@ -79,7 +79,6 @@
     "matias",
     "parodi"
   ],
-  "dependencies": {},
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
